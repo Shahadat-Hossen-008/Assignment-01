@@ -362,6 +362,8 @@ text-align: center
 }
 .footer-section .footer-icon{
     background: rgb(255, 255, 255);
+    display: flex;
+    gap:24px;
 }
 
 /* End footer section */
