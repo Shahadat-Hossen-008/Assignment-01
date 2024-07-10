@@ -43,7 +43,7 @@ body{
 
 .banner-content-title p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -51,8 +51,10 @@ body{
     opacity: 0.7;
     padding-top: 24px;
 }
-button a{
-    text-decoration:none ;
+a{
+    text-decoration: none;
+}
+ .header-button a{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
@@ -60,7 +62,7 @@ button a{
     letter-spacing: 0%;
     text-align: center;
 }
-.header-button{
+ .header-button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     border: none;
@@ -70,6 +72,7 @@ button a{
 .header-button:hover{
     opacity: 0.9;
     transition: 0.5s;
+    cursor: pointer;
 }
 /* banner section end */
 /* github live server link :https://shahadat-hossen-008.github.io/Assignment-01/ */
@@ -99,7 +102,7 @@ text-align: center;
 }
 .web-dev-section .why-web-dev-title p{
     color: rgb(13, 19, 33);
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -125,7 +128,7 @@ text-align: left;
 }
 .web-dev-section .coding-section .coding-section-title p{
 color: rgb(13, 19, 33);
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -142,6 +145,7 @@ margin-top: 16px;
 .web-dev-section .coding-section .section-button:hover{
     opacity: 0.5;
     transition: 0.3s;
+    cursor: pointer;
 }
 .web-dev-section .coding-section .section-button a{
 color: rgb(13, 19, 33);
@@ -154,7 +158,7 @@ line-height: 23px;
 .my-inspiration-section {
     width: 1140px;
     height: 777px;
-    margin: 88px auto 140px auto;
+    margin: 50px auto 120px auto;
 }
 .my-inspiration-section .my-inspiration-section-title h3{
 color: rgb(13, 19, 33);
@@ -167,7 +171,7 @@ margin-bottom: 24px;
 }
 .my-inspiration-section .my-inspiration-section-title p{
     color: rgb(13, 19, 33);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
