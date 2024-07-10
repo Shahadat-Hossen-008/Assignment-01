@@ -339,6 +339,7 @@ text-align: center
     line-height: 23px;
     letter-spacing: 0%;
     padding: 17px 20px 17px 20px;
+    cursor: pointer;
 }
 /* section 05 support ends */
 /* footer section start */
@@ -360,3 +361,4 @@ text-align: center
     background: rgb(255, 255, 255);
 }
 
+/* End footer section */
