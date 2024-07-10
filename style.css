@@ -349,6 +349,9 @@ text-align: center
     display: flex;
     justify-content: space-between;
     margin: 0 auto 32px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 10px;
 }
 .footer-section .footer-section-tittle{
     color: rgb(13, 19, 33); 
