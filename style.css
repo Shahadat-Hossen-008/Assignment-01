@@ -43,13 +43,14 @@ body{
 
 .banner-content-title p{
     color: rgb(13, 19, 33);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    padding-top: 24px;
+    /* padding-top: 24px; */
+    margin:24px 73px auto ;
 }
 a{
     text-decoration: none;
@@ -75,7 +76,6 @@ a{
     cursor: pointer;
 }
 /* banner section end */
-/* github live server link :https://shahadat-hossen-008.github.io/Assignment-01/ */
 
 
 /* section-part-01 start */
@@ -101,8 +101,8 @@ letter-spacing: 0%;
 text-align: center;
 }
 .web-dev-section .why-web-dev-title p{
-    color: rgb(13, 19, 33);
-font-size: 18px;
+color: rgb(13, 19, 33);
+font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -128,7 +128,7 @@ text-align: left;
 }
 .web-dev-section .coding-section .coding-section-title p{
 color: rgb(13, 19, 33);
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
@@ -171,7 +171,7 @@ margin-bottom: 24px;
 }
 .my-inspiration-section .my-inspiration-section-title p{
     color: rgb(13, 19, 33);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
@@ -183,3 +183,87 @@ margin-bottom: 24px;
     padding: 32px;
 }
 /* section 02 end */
+/* section 03 start */
+.current-target-section{
+    margin: 149px auto 112px auto;
+    width: 1140px;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-target-section .current-target-tittle h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.current-target-section .current-target-tittle p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: auto 142px 48px;
+}
+.current-target-section .card-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.current-target-section .card-section .box-section{
+    padding: 40px;
+}
+.current-target-section .card-section .box-section h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-bottom: 8px;
+}
+.current-target-section .card-section .box-section p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.current-target-section .box-section .card-section-btn{
+    border: none;
+}
+.current-target-section .box-section .card-section-btn a:hover{
+    opacity: 0.8;
+    transition: 0.4s;
+}
+.current-target-section .box-section .card-section-btn a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+} 
+
+.current-target-section .card-section .html-section{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-target-section .card-section .css-section{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-target-section .card-section .javascript-section{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* section 03 end here */
+/* github live server link :https://shahadat-hossen-008.github.io/Assignment-01/ */
