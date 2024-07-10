@@ -23,6 +23,7 @@ a{
 
 .card-section-btn{
     border: none;
+    background: transparent;
 }
 .card-section-btn a:hover{
     opacity: 0.8;
@@ -249,5 +250,32 @@ margin-bottom: 24px;
     background: rgba(255, 223, 0, 0.05);
 }
 /* section 03 end here */
-/*  */
-/* github live server link :https://shahadat-hossen-008.github.io/Assignment-01/ */
+/* section 04 start */
+.next-target-section{
+    width: 1140px;
+    height: 871px;
+    margin: 0 auto;
+}
+.next-target-section .next-target-tittle{
+margin: auto 144px 48px;
+text-align: center
+}
+.next-target-section .next-target-tittle h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+}
+.next-target-section .next-target-card{
+    display: flex;
+    gap:24px ;
+    padding: 40px;
+    margin-bottom:24px ;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+
