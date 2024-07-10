@@ -197,6 +197,9 @@ margin-bottom: 24px;
 }
 .my-inspiration-section .my-inspiration-video{
     padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    ;
 }
 /* section 02 end  inspiration */
 
